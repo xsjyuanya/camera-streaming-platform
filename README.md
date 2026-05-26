@@ -29,3 +29,17 @@ pip install -r requirements.txt
 
 # 启动服务
 python main.py
+
+访问 http://服务器IP:8080，默认账号 admin / 123456（首次登录强制修改密码）
+
+详细文档
+请参考仓库中的《服务器部署指南2026.05.26.pdf》
+
+技术栈
+拉流核心：Golang + FFmpeg
+
+Web 框架：Python http.server
+
+前端：原生 HTML/CSS/JS + HLS.js + XLSX
+
+存储：本地文件系统 + 自动清理策略
