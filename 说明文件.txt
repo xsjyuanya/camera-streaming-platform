@@ -1,11 +1,12 @@
-此拉流平台属于海康威视摄像头拉流：
-安装配置服务平台为debian12
+安装配置服务平台为debian12，系统请自行安装；
 第一次上传文件后：
 cameras_config.json
 groups_config.json
 system_config.json
 users_config.json
-users_config.json (账号配置)：
+users_config.json
+这四个文件会自动生成；
+ (账号配置)：
 当您第一次在网页端使用默认账号 admin（密码 123456）登录时，系统会弹出安全拦截窗口要求您修改初始密码。当您修改并确认后，这个文件就会立刻在服务器上生成。
 
 cameras_config.json (摄像头配置)：
@@ -18,4 +19,6 @@ system_config.json (系统设置)：
 当您修改了“保留最近 X 天录像”或“定时录像计划”，并点击“💾 保存并下发系统与排班配置”时自动生成。
 
 部署文档里面有说明
+
+按照此文档进行部署，直接原步骤操作，配置成功几率百分之百；
 
